@@ -11,7 +11,7 @@ function generateRandomString($length = 10) { //source: https://stackoverflow.co
 }
 echo "if (true == false) { ";               //This Code will never execute, and it will not use cpu.
 while( $i < 999) {                          //number of loops
-echo "char Junk";                          //name of char
+echo "char Junk";                           //name of char
 echo $i;                                    //echo number of line
 echo "[1024] = \"";                         //maximum size of char
 echo generateRandomString(rand(900, 1020)); //length of random string
