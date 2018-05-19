@@ -14,7 +14,7 @@ while( $i < 999) {                          //number of loops
 echo "char Junk";                           //name of char
 echo $i;                                    //echo number of line
 echo "[1024] = \"";                         //maximum size of char
-echo generateRandomString(rand(900, 1020)); //length of random string
+echo generateRandomString(rand(900, 1020)); //length of random string, edit rand to pick minimum and maximum random length, going above 1024 will result in compilator errors unless you change maximum value in line above
 echo "\";</br>";                            //visual studio don't like when you use one very long line, it will be likely to freeze
 $i++;}
 echo "}";
