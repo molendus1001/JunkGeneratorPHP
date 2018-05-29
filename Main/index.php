@@ -1,7 +1,7 @@
 <?php
 $i = 0;
 function generateRandomString($length = 10) { //source: https://stackoverflow.com/questions/4356289/php-random-string-generator
-    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $characters = '._-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $charactersLength = strlen($characters);
     $randomString = '';
     for ($i = 0; $i < $length; $i++) {
