@@ -1,10 +1,10 @@
 # JunkGeneratorPHP
 Server Sided C/C++ Junk Code Generator
-Written in PHP with some additions for easier use
-All you need to get it running is just clone main/index.php onto your PHP instance
-Only single file is required to get this running - so it's very "plug-and-play"
-I kept comments and syntax in simple manner, so maybe this project will help someone understand basics of PHP
-Feel Free to Pull updates and ideas to expand my project
+<br/>Written in PHP with some additions for easier use
+<br/>All you need to get it running is just clone main/index.php onto your PHP instance
+<br/>Only single file is required to get this running - so it's very "plug-and-play"
+<br/>I kept comments and syntax in simple manner, so maybe this project will help someone understand basics of PHP
+<br/>Feel Free to Pull updates and ideas to expand my project
 
 ## Generated code (Example generated junkcode in example folder):
 **1. Will never execute - Uses 0% Of CPU
