@@ -7,7 +7,7 @@ C/C++ Junk Code Generator
 
 ## Available junk styles:
 **1. Passive if statement
-<br/>2. Unreachable case in switch(int) **
+<br/>2. Unreachable case in switch(int)**
 
 You can find Example Generated code in Example Folder,
 <br/>And source code in Main Folder
