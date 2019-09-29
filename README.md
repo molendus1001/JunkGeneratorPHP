@@ -8,3 +8,5 @@ C/C++ Junk Code Generator
 You can find Example Generated code in Example Folder,
 <br/>And source code in Main Folder
 <br/>Feel Free to Pull updates and ideas to expand my project
+
+I kept comments and syntax in simple manner, so maybe this project will help someone understand basics of PHP
