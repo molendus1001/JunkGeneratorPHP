@@ -3,6 +3,7 @@ Server Sided C/C++ Junk Code Generator
 <br/>Written in PHP with some simple html&css additions for easier use
 <br/>All you need to get it running is just clone main/index.php onto your PHP instance
 <br/>Only single file is required to get this running - so it's very "plug-and-play"
+<br/>Very quick to use, just open generation page and simply CTRL+A, CTRL+C, CTRL+V
 <br/>I kept comments and syntax in simple manner, so maybe this project will help someone understand basics of PHP
 <br/>Feel Free to Pull updates and ideas to expand my project
 
