@@ -10,6 +10,7 @@ C/C++ Junk Code Generator
 **1. Passive if statement
 <br/>2. Unreachable case in switch(int)**
 
+
 You can find Example Generated code in Example Folder,
 And source code in Main Folder
 Feel Free to Pull updates and ideas to expand my project
