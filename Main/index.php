@@ -27,10 +27,10 @@ function generateRandomString($length = 99) {	//source: https://stackoverflow.co
     return $randomString;
 }
 if ($_GET["m"] == 1) {
-	echo "case 2147483646:<br>";			//Code after this statement will never execute, and it will not use cpu.
+	echo "case 2147483646:<br>";			//This case uses very big number that is unlikely to be used in normal cases
 }
 else {
-	echo "if (true == false) { <br>";		//This case uses very big number that is unlikely to be used in normal cases
+	echo "if (true == false) { <br>";		//Code after this statement will never execute, and it will not use cpu.
 }
 while( $i < 99) {								//number of loops
 	echo "char Junk";							//name of char, we just keep them simillar, becouse compiler kicks exact variable names anyway
