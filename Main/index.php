@@ -27,7 +27,7 @@ function generateRandomString($length = 99) {	//source: https://stackoverflow.co
     return $randomString;
 }
 if ($_GET["m"] == 1) {
-	echo "case 2147483646:<br>";			//This case uses very big number that is unlikely to be used in normal cases
+	echo "case " . rand(2000000000, 2147483646) .":<br>";			//This case uses very big number that is unlikely to be used in normal cases
 }
 else {
 	echo "if (true == false) { <br>";		//Code after this statement will never execute, and it will not use cpu.
