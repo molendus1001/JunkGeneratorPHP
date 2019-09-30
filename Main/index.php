@@ -11,7 +11,7 @@
 </style>
 <div class="unselectable">
 <a href=index.php?m=0><button type="button">Generate Passive if statement Junk</button></a>
-<a href=index.php?m=1><button type="button">Generate Switch/Case[int] Junk</button></a>
+<a href=index.php?m=1><button type="button">Generate Unreachable Switch/Case[int] Junk</button></a>
 <br><br>
 </div>
 
