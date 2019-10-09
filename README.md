@@ -19,3 +19,10 @@ Server Sided C/C++ Junk Code Generator
 **Known limitations/problems:**
 1. (Bypassed - Split junk into multiple files) ~~Code compiled using built-in visual studio compiler crashes when you paste more than 1500*1024 bytes into SINGLE file~~
 2. (Fixed - Use new Switch/Case Junk Style; But also why woud you use compiler optimization in files containing junk code?) ~~Compiler kicks out passive if case in high optimization settings~~
+<br/>
+<br/>
+<br/>Ideas TODO:
+<br/>1. Use of compiler macros to randomize junk with each compilation (like: __TIME__ , __DATE__, __LINE__ )
+<br/>2. Add fake ussage of declared junk to prevent compiler optimization compatibility issues (sprintf, MessageBoxA)
+<br/>2.5. Option to set real variable name in generator that woud be "overwritten with junk"
+<br/>3. Option to change junk parameters(like: string length, amount of variables) without editing php file(just to leave them as default settings) + limit of maximum values to prevent abuse by users
