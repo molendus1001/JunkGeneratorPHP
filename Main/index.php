@@ -29,9 +29,9 @@ function generateRandomString($length = 99) {	//source: https://stackoverflow.co
 if ($_GET["m"] == 1) {
 	echo "case " . rand(2000000000, 2147483646) .":<br>";			//This case uses very big number that is unlikely to be used in normal cases
 }
-else {
-	echo "if (true == false) { <br>";		//Code after this statement will never execute, and it will not use cpu.
-}
+
+echo "if (true == false) { <br>";	/*preventing error 'initialisation is skipped by case label' in visualstudio compiler when using case junk*/	//Code after this statement will never execute, and it will not use cpu.
+
 while( $i < 99) {								//number of loops
 	echo "char Junk";							//name of char, we just keep them simillar, becouse compiler kicks exact variable names anyway
 	echo $i;									//echo number of line - so that we don't have two identical variables
@@ -40,11 +40,11 @@ while( $i < 99) {								//number of loops
 	echo "\";<br>";								//visual studio don't like when you use one very long line, it woud be likely to freeze
 	$i++;
 }
+
+echo "}";	//closing if statement
+
 if ($_GET["m"] == 1) {
 	echo "break;";
-}
-else {
-	echo "}";
 }
 
 ?>
